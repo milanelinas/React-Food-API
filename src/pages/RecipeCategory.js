@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Search from '../components/Search';
 import RecipesList from '../components/RecipesList';
 
 

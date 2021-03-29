@@ -6,7 +6,7 @@ import Default from './pages/Default'
 import Recipes from './pages/Recipes'
 import SingleRecipe from './pages/SingleRecipe'
 import RecipeCategory from './pages/RecipeCategory'
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navbar from './components/Navbar'
 
 

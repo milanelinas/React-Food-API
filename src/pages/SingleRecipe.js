@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {recipeData} from '../data/tempDetails'
-import {Link} from 'react-router-dom'
+
 
 
 
