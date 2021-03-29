@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+body {
+  
+font-family: 'Open Sans', sans-serif!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-slanted {
+  font-family: 'Courgette', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-orange {
+  color: #f15025;
+}
+.letter-spacing {
+  letter-spacing: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-hero {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./images/hero-pizza.jpg");
+  min-height: calc(100vh - 56px);
+  background-position: center;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.default-hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./images/defaultBcg.jpeg");
+  min-height: calc(100vh - 56px);
+  background-position: center;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+img.logo {
+  max-width: 50px;
 }
+
+.navbar-expand-sm .navbar-collapse {
+  display: flex!important;
+  flex-basis: auto;
+  justify-content: flex-end;
+}
+
+
+ul.navbar-nav li.navbar-item a {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: .5s linear all;
+}
+
+ul.navbar-nav li.navbar-item a:hover {
+  color: #f15025;
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f15025; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f15025; 
+}
+
+
+a.text-uppercase.btn-secondary.btn-lg.mt-3 {
+  transition: 0.5s linear all;
+}
+
+a.text-uppercase.btn-secondary.btn-lg.mt-3:hover {
+  text-decoration: none;
+  background: #f15025;
+}
+
+.image-circle img {
+  width: 120px;
+  height: 120px;
+  border-radius:50%;
+  transition:.5s linear all;
+  border:3px solid transparent;
+}
+
+.image-circle img:hover {
+  transform: scale(1.1);
+  border:3px solid #f15025;
+}
+
+.row.image-circle.py-5 a {
+  color: black;
+  font-weight: bold;
+  transition: .5s linear all;
+}
+
+.row.image-circle.py-5 a:hover {
+  color: #f15025;
+  text-decoration: none;
+}
+
+
+
+
+
