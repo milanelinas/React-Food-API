@@ -65,8 +65,8 @@ export default class SingleRecipe extends Component {
                             <h6 className="text-warning text-capitalize text-slanted">
                                 provided by {publisher}
                             </h6>
-                            <a href={publisher_url} target="_blank" className="btn btn-primary mt-2 text-capitalize">Publisher web page</a>
-                            <a href={source_url} target="_blank" className="btn btn-success mt-2 text-capitalize mx-5">recipe url</a>
+                            <a href={publisher_url} target="_blank" rel="noreferrer" className="btn btn-primary mt-2 text-capitalize">Publisher web page</a>
+                            <a href={source_url} target="_blank" rel="noreferrer" className="btn btn-success mt-2 text-capitalize mx-5">recipe url</a>
                             <ul className="list-group mt-4">
                                 <h2 className="my-3">Ingredients</h2>
                                 {ingredients.map((item,index)=>  {
