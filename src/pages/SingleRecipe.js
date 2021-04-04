@@ -16,7 +16,7 @@ export default class SingleRecipe extends Component {
 
 
     async componentDidMount() {
-        const url = `https://recipesapi.herokuapp.com/api/get?rId=${this.state.id}`;
+        const url = `https://cors-anywhere.herokuapp.com/https://recipesapi.herokuapp.com/api/get?rId=${this.state.id}`;
 
         try {
             const response =  await fetch(url);

@@ -10,7 +10,7 @@ export default class RecipeCategory extends Component {
          const category = this.props.match.params.category
          this.state = {
             recipes:[],
-            url: `https://recipesapi.herokuapp.com/api/search?q=${category}`,
+            url: `https://cors-anywhere.herokuapp.com/https://recipesapi.herokuapp.com/api/search?q=${category}`,
             category
         }
     }

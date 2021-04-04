@@ -13,9 +13,9 @@ export default class Recipes extends Component {
     state = {
         recipes:[],
         search:'',
-        url: `https://recipesapi.herokuapp.com/api/search`,
+        url: `https://cors-anywhere.herokuapp.com/https://recipesapi.herokuapp.com/api/search`,
         // https://recipesapi.herokuapp.com/api/search?q=chicken
-        base_url:`https://recipesapi.herokuapp.com/api/search`,
+        base_url:`https://cors-anywhere.herokuapp.com/https://recipesapi.herokuapp.com/api/search`,
         query:`?q=`,
         error:''
     }
